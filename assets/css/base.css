@@ -19,8 +19,12 @@
 
 .content,.content-lg{
     width:100%;
-    max-width: 1208px;
+    max-width: 1200px;
     margin:0 auto;
+}
+
+.content-lg{
+    max-width: 1400px;
 }
 
 .flex-row{
@@ -75,3 +79,47 @@
     text-transform: uppercase;
 }
 
+
+.wrapper-content{
+    width: 100%;
+    max-width: 1920px;
+    margin:0 auto;
+}
+
+.btn{
+    border-radius: 45px;
+    border:none;
+    background:#DDD;
+    width: 100%; 
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding:15px 28px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.btn-primary {
+    background-color:#F2B111;
+    color:#FFF;
+}
+
+.btn-primary:hover {
+    background-color:#FFF;
+    color:#F2B111;
+}
+
+.bg-blue{
+    background-color: #1A5EAF;
+}
+
+.bg-green{
+    background-color: #1EB691;
+}
+
+.bg-red{
+    background-color: #E2583A;
+}
+
+.bg-purple{
+    background-color: #774AA5;
+}

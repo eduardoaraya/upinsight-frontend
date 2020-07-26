@@ -1,0 +1,117 @@
+#conpetences {
+    background-color: #f7f7f7;
+    background-image: url(../imgs/conpetences-bg.png);
+    background-position: left 70px;
+    background-repeat: no-repeat;
+    background-size:1767.44px;
+    padding:70px 0 170px 0;
+}
+
+#conpetences .header-conpetences{
+    display: flex;
+    flex-direction: column;
+}
+
+#conpetences .conpetences-action{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#conpetences .conpetences-action .phrase{
+    font-size:1.8em;
+    margin-right: 48px;
+    text-transform: uppercase;
+}
+
+#conpetences .conpetences-action .phrase .bolder{
+    font-weight: 500;
+}
+
+#conpetences .conpetences-action .btn{
+    width:100%;
+    max-width: 300px;
+    font-size: .82em;
+}
+
+#conpetences .header-conpetences .title{
+    font-size: .965em;
+    color:#F2B111;
+    margin-bottom:9px;
+}
+
+#conpetences .category-conpetences{
+    color: #838383;
+    margin-top:70px
+}
+
+#conpetences .category-conpetences ul{
+    color: #17181C;
+    padding:15px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+#conpetences .category-conpetences ul .item{
+    border-radius: 45px;
+    border:none;
+    width: 100%; 
+    text-transform: uppercase;
+    font-weight: 500;
+    padding:15px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px transparent;
+    text-align: center;
+    font-size: .74em;
+    box-shadow: inset 0px 0px 1px 2px transparent;
+}
+
+
+#conpetences .category-conpetences ul .item:hover,
+#conpetences .category-conpetences ul .item.active {
+    background-color:transparent;
+    color:#F2B111;
+    box-shadow: inset 0px 0px 1px 2px #F2B111;
+}
+
+#conpetences .carousel-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#conpetences .carousel-wrapper .box{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    padding:15px 0;
+}
+
+#conpetences .carousel-wrapper .box .figure{
+    width: 270px;
+    height: 160px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#conpetences .carousel-wrapper .box .action{
+    padding:20px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+#conpetences .carousel-wrapper .box .action img{
+    border:solid 2px #F2B111;
+    padding:10px;
+    border-radius: 50%;
+}
