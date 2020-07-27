@@ -1,0 +1,65 @@
+
+.section-products{
+    background-color: #FFF;
+}
+
+.section-products .grid-products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2,minmax(300px,50vh));
+}
+
+.section-products .header-products{
+    padding:25px 0px;
+    text-align: center;
+}
+
+.section-products .phrase{
+    font-size:1.8em
+}
+
+.section-products .action-box{
+    background-color:#DDD;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:#FFF;
+    font-size:1.3em;
+    padding:49px;
+    cursor: pointer;
+    flex-direction: column;
+    line-height: 32px;
+    justify-content: flex-end;
+    font-weight: 500;
+}
+
+.section-products .action-box p{
+    margin-bottom:25px;
+}
+
+.section-products .action-box:nth-child(1) {
+    background-image: url(../imgs/Group41.png);
+}
+
+.section-products .action-box:nth-child(2) {
+    background-image: url(../imgs/Group41.png);
+    justify-content: space-between;
+}
+
+.section-products .action-box:nth-child(2) .btn{
+    max-width: 150px;
+}
+
+.section-products .action-box:nth-child(3) {
+    background-image: url(../imgs/Group41.png);
+}
+.section-products .action-box:nth-child(4) {
+    background-image: url(../imgs/Group44.png);
+}
+.section-products .action-box:nth-child(5) {
+    background-image: url(../imgs/Group43.png);
+}
+.section-products .action-box:nth-child(6) {
+    background-image: url(../imgs/Group42.png);
+}

@@ -108,6 +108,22 @@
     color:#F2B111;
 }
 
+.btn-secundary {
+    background-color:#1EB691;
+    color:#FFF;
+}
+
+.btn-void {
+    background-color:transparent;
+    color:#FFF;
+    border: solid 2px #FFF;
+}
+
+.btn-secundary:hover {
+    background-color:#FFF;
+    color:#1EB691;
+}
+
 .bg-blue{
     background-color: #1A5EAF;
 }
@@ -122,4 +138,27 @@
 
 .bg-purple{
     background-color: #774AA5;
+}
+
+.title{
+    font-size:.965em;
+    color:#222;
+    margin-bottom:10px;
+}
+
+.color-primary{
+    color:#F2B111
+}
+
+.color-secundary{
+    color:#1EB691
+}
+
+.btn-more-white{
+    border-radius: 50%;
+    border:solid 2px #FFF;
+    width: 40px;
+    height: 40px;
+    padding:0;
+    background-color: transparent;
 }

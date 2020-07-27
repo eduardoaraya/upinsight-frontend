@@ -50,7 +50,7 @@
     color:#FFF;
 }
 
-#banner-main-top .banner-sm .content{
+#banner-main-top .banner-sm .box{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,21 +61,22 @@
     padding:36px;
 }
 
-#banner-main-top .banner-sm .content .title{
+#banner-main-top .banner-sm .box .title{
   margin-top:15px;
   margin-bottom:35px;
+  color:#FFF;
 }
 
-#banner-main-top .banner-sm .content .phrase{
+#banner-main-top .banner-sm .box .phrase{
     font-size:.97em;
     opacity: 0.6;
 }
 
-#banner-main-top .banner-sm .content .action:hover{
+#banner-main-top .banner-sm .box .action:hover{
     opacity: 1;
 }
 
-#banner-main-top .banner-sm .content .action{
+#banner-main-top .banner-sm .box .action{
     margin-top:10px;
     color:#FFF;
     font-size:.97em;
@@ -83,7 +84,7 @@
     transition:.3s;
 }
 
-#banner-main-top .banner-sm .content .arrow{
+#banner-main-top .banner-sm .box .arrow{
     width:10px;
     height: 10px;
 }

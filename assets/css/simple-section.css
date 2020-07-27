@@ -1,18 +1,19 @@
-#about.section-about{
+.section-simple{
     width:100%;
     height: auto;
     background:#FFF;
 }
 
-#about .wrapper{
+.wrapper{
     padding:40px;
+    align-items: center;
 }
 
-#about .ilustring-image{
+.ilustring-image{
     width:50%;
 }
 
-#about .about-content{
+.simple-content{
     width: 50%;
     padding:74px;
     line-height: 32px;
@@ -22,26 +23,21 @@
     padding-right: 120px;
 }
 
-#about .about-content .title{
-    font-size:.965em;
-    color:#F2B111;
-    margin-bottom:10px;
-}
 
-#about .about-content .description p{
+.simple-content .description p{
     color:#838383;
     line-height: 23px;
     font-size:1.31em;
 }
 
-#about .about-content .description .text-focus{
+.simple-content .description .text-focus{
     color: #17181C;
     font-size:2.4em;
     margin-bottom:25px;
     line-height: 32px;
 }
 
-#about .about-image{
+.simple-image{
     overflow: hidden;
     width: 50%;
     height: 450px;   
@@ -50,11 +46,11 @@
     align-items: center;
 }
 
-#about .about-image img{
+.simple-image img{
     flex:1;
 }
 
-#about .action-about-more{
+.action-simple-more{
     max-width: 135px;
     align-self: flex-end;
     margin-top:23px;
