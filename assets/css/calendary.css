@@ -1,0 +1,112 @@
+.section-calendary {
+    background-color: #FFF;
+    padding:78px 0px;
+}
+
+.section-calendary .header-calendary {
+    display: flex;
+    justify-content: space-between;
+    padding:26px 0;
+}
+
+.section-calendary .header-calendary h1.title {
+    font-size:2em;
+    font-weight: normal;
+}
+
+.section-calendary .wrapper-months {
+    padding:26px 0;
+    border-top:1px solid #E4EAED;
+    border-bottom:1px solid #E4EAED;
+}
+
+.section-calendary .wrapper-months .months {
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.section-calendary .wrapper-months .months .month,
+.section-calendary .last-years .year{
+    flex:1;
+    text-align: center;
+    cursor: pointer;
+    color:#17181C;
+    font-weight: 500;
+    padding:5px 0;
+    border-radius: 40px;
+    transition:.3s;
+    max-width: 70px;
+}
+.section-calendary .last-years .year{
+    height: 40px;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-calendary .last-years{
+    width:140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-calendary .last-years .year.active, 
+.section-calendary .last-years .year:hover, 
+.section-calendary .wrapper-months .months .month.active, 
+.section-calendary .wrapper-months .months .month:hover{
+    background: #F2B111;
+    color:#FFF;
+}
+
+.section-calendary .content-month {
+    padding:40px 0px; 
+    justify-content: space-between;
+}
+
+.section-calendary .content-month .course-box {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-auto-rows: 200px;
+}
+
+.section-calendary .content-month .course-box .course-image {
+    background: #222;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-calendary .content-month .course-box .course-image img {
+    width: 70px;
+    height: 70px;
+}
+
+
+.section-calendary .content-month .course-box:nth-child(1) .course-image{
+    background: #1A5EAF;
+}
+.section-calendary .content-month .course-box:nth-child(2) .course-image{
+    background: #774AA5;
+}
+
+.section-calendary .content-month .course-content {
+    padding:0px 27px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-calendary .content-month .course-content p{
+    font-size:.97em;
+    color:#838383;
+    line-height: 20px;
+}
+
+.section-calendary .content-month .course-content .btn-primary {
+    max-width: 140px;
+}

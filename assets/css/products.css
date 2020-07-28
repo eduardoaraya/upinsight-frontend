@@ -32,7 +32,9 @@
     line-height: 32px;
     justify-content: flex-end;
     font-weight: 500;
+    transition: .3s;
 }
+
 
 .section-products .action-box p{
     margin-bottom:25px;

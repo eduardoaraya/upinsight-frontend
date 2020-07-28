@@ -119,9 +119,18 @@
     border: solid 2px #FFF;
 }
 
+.btn-void:hover{
+    background-color:#FFF;
+    color:#222;
+}
+
 .btn-secundary:hover {
     background-color:#FFF;
     color:#1EB691;
+}
+
+.btn-more-white:hover {
+    border-color:#F2B111;
 }
 
 .bg-blue{
