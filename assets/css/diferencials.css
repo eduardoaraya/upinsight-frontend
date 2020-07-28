@@ -1,0 +1,116 @@
+.section-diferencials{
+    padding:54px 0px;
+    background-color: #f7f7f7;
+    height:900px;
+}
+
+.section-diferencials .title,.section-diferencials .phrase{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-diferencials .phrase {
+    font-size: 2em;
+}
+.section-diferencials .phrase .bolder{
+    font-weight: 500;
+}
+
+
+.section-diferencials .grid-diferencials {
+    padding:75px 0px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,minmax(180px,1fr));
+}
+
+.section-diferencials .card-diferencials{
+    display: flex;
+    flex-direction: row;
+}
+.section-diferencials .card-diferencials-content .icon img { 
+    width: 30px;
+}
+
+.section-diferencials .card-diferencials-content {
+    padding:0 20px;
+    color:#838383;
+    line-height: 26px;
+}
+.section-diferencials .card-diferencials-content p {
+    padding-right: 15px;
+}
+
+.section-diferencials .card-diferencials-content h4 {
+    color:#17181C;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size:1.2em;
+}
+
+.section-diferencials .depoiments {
+    height: 450px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.06);
+    transform: translate3d(0,-30px,0);
+    padding:52px 60px;
+}
+
+.depoiments .header-depoiments {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.depoiments .header-depoiments .title{
+    font-size:2em;
+    font-weight: 400;
+    color: #17181C;
+}
+
+.depoiments .header-depoiments .btn{
+    max-width: 325px;
+}
+
+.list-depoiments{
+    position: relative;
+    align-items: center;
+    width: 100%;
+    padding-top:65px;
+}
+
+.list-depoiments .card-depoiment{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:0 20px;
+}
+
+.list-depoiments .card-depoiment .content-depoiment{
+    max-width: 400px;
+    padding:20px;
+    color:#838383;
+    line-height: 26px;
+}
+
+.list-depoiments .card-depoiment .avatar-profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+ }
+.list-depoiments .card-depoiment .avatar-profile img{
+    flex:1;
+}
+
+
+ .author-depoiment {
+     font-weight: 500;
+     color:#17181C;
+ }
