@@ -5,6 +5,7 @@
     width:100%;
     background:#FFF;
     border-top:solid 3px #F2B111;
+    height: auto;
 }
 
 .header .header-logo{
@@ -54,6 +55,8 @@
     height: 40%;
 }
 
+
+
 .navigator {
     height: 60%;
 }
@@ -72,13 +75,34 @@
 .navigator ul li a{
     padding:10px;
     margin:0 8px;
-    font-size:.75em;
+    font-size:.85em;
+}
+
+.header-links ul li a {
+    color:#838383;
+    font-size:1em;
 }
 
 .navigator ul li a{
     text-transform: uppercase;
 }
 
+.header-links .socials{
+    justify-content: space-around;
+    padding:0 10px;
+}
+.header-links .socials a{
+    margin:0 10px;
+    cursor: pointer;
+}
+
+.header-links .login-action{
+    align-items: center;
+    justify-content: space-around;
+    width: 100px;
+    cursor: pointer;
+    margin:0 15px;
+}
 
 .wrapper-content{
     width: 100%;
@@ -176,6 +200,10 @@
     color:#FFF;
 }
 
+.footer{
+    background:#f7f7f7;
+}
+
 .grid-footer{
     display: grid;
     grid-template-columns: repeat(4,minmax(200px, 1fr));
@@ -194,10 +222,22 @@
 
 .grid-footer .column-footer p{
     color:#838383;
+    font-size:.87em;
+    line-height: 27px;
+}
+
+.footer .header {
+    background:transparent;
+    border: none;
+    padding:25px 0px;
 }
 
 
 .copyright{
     justify-content: space-between;
     padding:45px 0px;
+}
+
+.bold{
+    font-weight: 500;
 }
