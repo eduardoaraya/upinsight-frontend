@@ -3,8 +3,8 @@
     height: auto;
     background:#FFF;
 }
-
-.wrapper{
+ 
+.section-simple .wrapper{
     padding:40px;
     align-items: center;
 }
@@ -34,7 +34,7 @@
     color: #17181C;
     font-size:2.4em;
     margin-bottom:25px;
-    line-height: 32px;
+    line-height: 38px;
 }
 
 .simple-image{
@@ -54,5 +54,19 @@
     max-width: 135px;
     align-self: flex-end;
     margin-top:23px;
+}
+
+.footer .column-footer .socials {
+    justify-content: space-between;
+    max-width: 180px;
+    padding:15px 0px;
+}
+.footer .column-footer .socials a  {
+    cursor: pointer;
+}
+
+.footer .column-footer .socials a img{
+    display: block;
+    width:30px;
 }
 
