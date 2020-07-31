@@ -125,15 +125,21 @@
 
 @media only screen and (max-width:1440px) {
     #banner-main-top .section-banners-grid{
-        grid-template-columns: repeat(4,minmax(300px,420px));
+        grid-template-columns: repeat(4,minmax(200px,1fr));
+        font-size:12px;
+    }
+    #banner-main-top .banner-full .dialog{
+        width: 350px;
+        word-wrap: break-word;
     }
 }
 
-@media only screen and (max-width:1330px) {
+
+@media only screen and (max-width:1024px) {
     #banner-main-top .section-banners-grid{
-        grid-template-columns: repeat(4,minmax(300px,100%));
+        grid-template-columns:50% 50%;
     }
-    #banner-main-top .section-banners-grid .banner-full{
-        grid-column: 1/5;
+    #banner-main-top .action-item.banner-sm {
+        grid-column:1/3;
     }
 }

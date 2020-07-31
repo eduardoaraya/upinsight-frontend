@@ -65,3 +65,16 @@
 .section-products .action-box:nth-child(6) {
     background-image: url(../imgs/Group42.png);
 }
+
+@media only screen and (max-width:1440px) {
+    .section-products .grid-products {
+        font-size:12px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .section-products .grid-products {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}

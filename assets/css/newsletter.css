@@ -38,3 +38,36 @@
     font-size: .97em;
     margin:0 5px;
 }
+
+@media only screen and (max-width:1024px) {
+    .newsletter {
+        padding: 45px;
+        height: auto;
+    }
+    .newsletter .title {
+        padding:0 45px;
+        max-width: 100%;
+        text-align: center;
+    }
+    .newsletter .wrapper-newsletter,
+    #form-newsletter .wrapper-content-form  {
+        flex-direction: column;
+    }
+
+    #form-newsletter {
+        margin:0 auto;
+        text-align: center;
+        padding:45px;
+        width: 100%;
+        max-width: 800px;
+    }
+
+    #form-newsletter .wrapper-content-form {
+        justify-content: space-between;
+    }
+
+    .input-newsletter {
+        margin: 5px 0px;
+        height: 45px;
+    }
+}

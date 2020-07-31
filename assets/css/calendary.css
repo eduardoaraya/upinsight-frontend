@@ -110,3 +110,20 @@
 .section-calendary .content-month .course-content .btn-primary {
     max-width: 140px;
 }
+
+@media only screen and (max-width:1024px) {
+    .section-calendary {
+        padding:45px;
+    }
+    .section-calendary .content-month {
+        flex-direction: column;
+    }
+
+    .section-calendary .content-month .course-box {
+        margin:15px 0px;
+    }
+
+    .section-calendary .content-month .course-content .btn-primary {
+        align-self: flex-end;
+    }
+}

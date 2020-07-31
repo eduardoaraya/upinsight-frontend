@@ -56,17 +56,23 @@
     margin-top:23px;
 }
 
-.footer .column-footer .socials {
-    justify-content: space-between;
-    max-width: 180px;
-    padding:15px 0px;
-}
-.footer .column-footer .socials a  {
-    cursor: pointer;
+@media only screen and (max-width:1440px) {
+    .section-simple {
+        grid-template-columns: repeat(4,minmax(300px,420px));
+        font-size:14px;
+    }
 }
 
-.footer .column-footer .socials a img{
-    display: block;
-    width:30px;
-}
-
+@media only screen and (max-width:1024px) {
+    .section-simple .flex-row {
+        flex-direction: column;
+    }
+    .simple-content {
+        padding:0;
+        width: 100%;
+        font-size:12px;
+    }
+    .simple-image {
+        display: none;
+    }
+ }

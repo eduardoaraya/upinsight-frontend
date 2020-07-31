@@ -239,6 +239,22 @@
 }
 
 
+.footer .column-footer .socials {
+    justify-content: space-between;
+    max-width: 180px;
+    padding:15px 0px;
+}
+.footer .column-footer .socials a  {
+    cursor: pointer;
+}
+
+.footer .column-footer .socials a img{
+    display: block;
+    width:30px;
+}
+
+
+
 .copyright{
     justify-content: space-between;
     padding:45px 0px;
@@ -246,4 +262,10 @@
 
 .bold{
     font-weight: 500;
+}
+
+@media only screen and (max-width:1024px) {
+    .footer {
+        padding:0 45px;
+    }
 }
