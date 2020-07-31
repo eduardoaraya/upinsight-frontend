@@ -76,6 +76,12 @@
     padding:10px;
     margin:0 8px;
     font-size:.85em;
+    transition: .3s;
+}
+
+.navigator ul li:hover a,
+.header-links ul li:hover a{
+    opacity: .5;
 }
 
 .header-links ul li a {
