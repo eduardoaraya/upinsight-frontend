@@ -147,19 +147,24 @@
     #banner-main-top .action-item.banner-sm {
         grid-column:1/3;
     }
+    #banner-main-top .banner-full .dialog {
+        left: 0;
+        font-size: .75em;
+        width: 100%;
+    }
 }
 
 
 @media only screen and (max-width:990px) {
     #banner-main-top {
-        padding-top:113px;
+        padding-top:70px;
     }
 }
 
-@media only screen and (max-width:425px) {
+/* @media only screen and (max-width:425px) {
     #banner-main-top .banner-full .dialog {
             left: 0;
             font-size: .75em;
             width: 100%;
     }
-}
+} */

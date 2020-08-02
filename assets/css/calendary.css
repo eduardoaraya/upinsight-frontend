@@ -95,7 +95,7 @@
 }
 
 .section-calendary .content-month .course-content {
-    padding:25px 27px 25px 20px;
+    padding:10px 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -130,9 +130,6 @@
     .section-calendary .content-month .course-box{
         grid-template-columns: 1fr;
     }
-}
-
-@media only screen and (max-width:425px) {
     .section-calendary {
         padding:0;
     }
@@ -161,6 +158,12 @@
     .section-calendary .last-years {
         width: 100%;
     }
+    .section-calendary .content-month {
+        padding: 45px;
+    }
+}
+
+@media only screen and (max-width:425px) {
     .section-calendary .content-month .course-content .btn-primary {
         font-size:.67em;
         padding:5px 15px;

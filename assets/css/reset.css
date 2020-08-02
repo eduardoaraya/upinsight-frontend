@@ -39,3 +39,7 @@ button{
     outline: none;
     user-select: none;
 }
+
+figure {
+    margin:0;
+}
