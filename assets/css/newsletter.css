@@ -71,3 +71,17 @@
         height: 45px;
     }
 }
+
+@media only screen and (max-width:425px) {
+    .newsletter,
+    #form-newsletter,
+    .newsletter .title {
+         padding:25px;
+    }
+    .newsletter .title {
+        font-size:1.2em;
+    }
+    .input-newsletter {
+        min-width: 100%;
+    }
+}

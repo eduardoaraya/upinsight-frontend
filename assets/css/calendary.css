@@ -95,7 +95,7 @@
 }
 
 .section-calendary .content-month .course-content {
-    padding:0px 27px 0px 20px;
+    padding:25px 27px 25px 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -118,12 +118,55 @@
     .section-calendary .content-month {
         flex-direction: column;
     }
-
     .section-calendary .content-month .course-box {
         margin:15px 0px;
     }
-
     .section-calendary .content-month .course-content .btn-primary {
         align-self: flex-end;
     }
 }
+
+@media only screen and (max-width:768px) {
+    .section-calendary .content-month .course-box{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .section-calendary {
+        padding:0;
+    }
+    .section-calendary .wrapper-months{
+        overflow-y: scroll;
+        border-right: solid 2px #F2B111;
+        background-color: rgba(0,0,0,.03);
+    }
+    .section-calendary .wrapper-months .months .month, 
+    .section-calendary .last-years .year {
+        flex:1;
+        margin:0 25px;
+        padding:10px 25px;
+        text-align: center;
+        max-width: 100%;
+    }
+    .section-calendary  .header-calendary {
+        flex-wrap: wrap;
+    }
+    .section-calendary .title {
+        margin-bottom:25px;
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+    .section-calendary .last-years {
+        width: 100%;
+    }
+    .section-calendary .content-month .course-content .btn-primary {
+        font-size:.67em;
+        padding:5px 15px;
+    }
+    .section-calendary .content-month {
+        padding: 25px;
+    }
+}
+

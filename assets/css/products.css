@@ -78,3 +78,10 @@
         grid-template-rows: 1fr 1fr 1fr;
     }
 }
+
+@media only screen and (max-width:425px) {
+    .section-products .grid-products {
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(250px, 1fr);
+    }
+}

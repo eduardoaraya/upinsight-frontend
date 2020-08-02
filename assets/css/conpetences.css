@@ -171,4 +171,39 @@
     #conpetences {
         padding:45px;
     }
+
+    #conpetences .conpetences-action {
+        flex-direction: column;
+        justify-content: flex-start;
+    } 
+
+    #conpetences .conpetences-action .btn {
+        margin-top:25px;
+    }
+    #conpetences .conpetences-action .phrase {
+        margin-right: 0;
+        margin-top:25px;
+    }
 }
+
+@media only screen and (max-width:425px) {
+    #conpetences .header-conpetences {
+        padding:0;
+    }
+  
+    #conpetences .carousel-wrapper {
+        padding:20px;
+    }
+    #conpetences .carousel-wrapper .box {
+        width: 100%;
+    }
+
+    #conpetences .category-conpetences span {
+        text-indent: 0;
+    }
+    #conpetences .conpetences-action .btn {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+

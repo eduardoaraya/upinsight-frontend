@@ -123,10 +123,13 @@
     }
 
     .section-diferencials .grid-diferencials {
-        padding: 75px;
-        gap: 20px;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(3,minmax(180px,1fr));
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        padding:5px;
+        gap:0;
+    }
+    .section-diferencials .card-diferencials {
+        margin:45px 0px;
     }
     .section-diferencials .depoiments {
         height: auto;
@@ -140,3 +143,35 @@
         justify-content: center;
     }
 }
+
+@media only screen and (max-width:425px) {
+    .section-diferencials {
+        padding:45px 0px;
+    }
+    .section-diferencials .grid-diferencials {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-auto-rows: auto;
+        padding:75px 20px;
+        gap:45px;
+        padding:50px;
+    }
+    .depoiments .header-depoiments {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .depoiments .header-depoiments .title {
+        margin-bottom: 25px;
+    }
+    .section-diferencials .depoiments {
+        padding:25px;
+    }
+    .list-depoiments .card-depoiment {
+        flex-direction: column;
+    }
+    .section-diferencials .card-diferencials-content p {
+        margin:0;
+    }
+}
+
+
