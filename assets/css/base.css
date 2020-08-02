@@ -6,6 +6,12 @@
     background:#FFF;
     border-top:solid 3px #F2B111;
     height: auto;
+    z-index: 999;
+}
+
+.header-fix {
+     position: fixed;
+     box-shadow:0px 0px 15px -5px rgba(70,70,0,.14);
 }
 
 .header .header-logo{
@@ -269,3 +275,20 @@
         padding:0 45px;
     }
 }
+
+@media only screen and (max-width:990px) {
+    .grid-footer{
+        gap: 10px;
+        display: grid;
+        grid-template-columns: repeat(1,minmax(200px, 1fr));
+    }
+    .header .navigator,
+    .header .header-links{
+        display: none;
+    }
+    .header .header-logo {
+        width: 150px;
+        height: 113px;
+    }
+}
+
