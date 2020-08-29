@@ -9,9 +9,15 @@
     z-index: 999;
 }
 
-.header-fix {
-     position: fixed;
-     box-shadow:0px 0px 15px -5px rgba(70,70,0,.14);
+.header-fixed {
+  transition:1s;
+  position: fixed;
+  box-shadow:0px 0px 15px -5px rgba(70,70,0,.14);
+  transform: translate3d(0,0,0);
+}
+
+.header-fixed.animate-up {
+  transform: translate3d(0,-171px,0);
 }
 
 .header .header-logo{
@@ -314,24 +320,24 @@
         display: none;
     }
 
-    .header.header-fix .navigator ul,
-    .header.header-fix .header-links ul{
+    .header.header-fixed .navigator ul,
+    .header.header-fixed .header-links ul{
         width: 100%;
         padding:0;
         flex-direction: column;
     }
 
-    .header.header-fix .navigator ul li,
-    .header.header-fix .header-links ul li{
+    .header.header-fixed .navigator ul li,
+    .header.header-fixed .header-links ul li{
         padding:15px 5px;
         border-bottom: solid 1px #F2B111;
     }
 
-    .header.header-fix .header-links .socials {
+    .header.header-fixed .header-links .socials {
         margin-top:25px;
     }
 
-    .header.header-fix .header-content.active {
+    .header.header-fixed .header-content.active {
         display: flex;
         position: fixed;
         flex-direction: column-reverse;
@@ -354,18 +360,20 @@
         align-items: center;
         width: 100px;
     }
-    .header.header-fix .header-logo {
+    .header.header-fixed .header-logo {
         width: 150px;
         height: 70px;
         z-index: 9;
     }
 
-    .header.header-fix .header-logo img {
+    .header.header-fixed .header-logo img {
         width: 100px;
         height: 70px;
         margin-right: 25px;
     }
 }
+
+
 /* 
 @media only screen and (max-width:425px) {
     .header .header-logo img {
