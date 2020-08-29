@@ -35,12 +35,6 @@ export default class Menu {
     if (width <= 990) {
       return;
     }
-    // const animation = this.desktop.animate([
-    //   { transform: `translateY(0)` },
-    //   { transform: `translateY(-${this.desktop.offsetHeight}px)` },
-    // ], { duration: 300, fill: 'forwards', });
-    // animation.pause();
-
     return {
       up: () => this.desktop.classList.add('animate-up'),
       down: () => this.desktop.classList.remove('animate-up')
