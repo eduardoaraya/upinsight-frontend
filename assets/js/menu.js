@@ -1,36 +1,3 @@
-export function toggleMenuMobile(event, close = false) {
-  const menu = document.getElementById('menu-mobile');
-  if (close) {
-    return menu.classList.remove('active');
-  }
-  if (!menu.classList.contains('active')) {
-    menu.classList.add('active');
-  } else {
-    menu.classList.remove('active');
-  }
-}
-
-export function upMenuFixed(width) {
-  if (width <= 990) {
-    return;
-  }
-  const menu = document.getElementById('header-fixed');
-  const animation = menu.animate([
-    { transform: `translateY(0)` },
-    { transform: `translateY(-${menu.offsetHeight}px)` },
-  ], {
-    duration: 300,
-    fill: 'forwards',
-  })
-  animation.play();
-  animation.reverse();
-}
-
-export function initMenuMobile() {
-  const target = document.querySelectorAll('[data-menu-mobile]');
-  target.forEach(item => item.addEventListener('click', toggleMenuMobile));
-}
-
 export default class Menu {
   constructor({ desktop, mobile, targetMobile }) {
     this.desktop = document.getElementById(desktop);
