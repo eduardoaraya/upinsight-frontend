@@ -38,6 +38,8 @@ a {
 button{
     outline: none;
     user-select: none;
+    background:transparent;
+    border:none;
 }
 
 figure {

@@ -35,6 +35,9 @@
     transition: .3s;
 }
 
+.section-products .action-box .btn {
+  min-width: auto;
+}
 
 .section-products .action-box p{
     margin-bottom:25px;
