@@ -128,14 +128,15 @@
     margin:0 auto;
 }
 
-.btn{
+.btn {
     border-radius: 45px;
     border:none;
     background:#DDD;
     width: 100%; 
     text-transform: uppercase;
     font-weight: bolder;
-    padding:15px 28px;
+    padding:15px 20px;
+    min-width:120px;
     cursor: pointer;
     transition: .3s ease-in-out;
 }
