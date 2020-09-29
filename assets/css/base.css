@@ -176,6 +176,12 @@
     border-color:#F2B111;
 }
 
+.btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .bg-blue{
     background-color: #1A5EAF;
 }
