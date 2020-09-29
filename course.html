@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="./assets/css/pages/course-page.css">
 </head>
 
-<body>
+<body class="page page-course">
 
   <!-- INIT HEADER -->
   <header class="header header-fixed" id="header-fixed">
@@ -78,42 +78,35 @@
       <div class="content flex-row">
         <div class="list-details">
           <div class="item-detail">
-            <div class="icon bg bg-primary"><img src="" alt=""></div>
+            <div class="icon bg-primary"><img src="./assets/imgs/Quando_.svg" alt=""></div>
             <div class="description">
               Quando?
               <span>04.07.2020</span>
             </div>
           </div>
           <div class="item-detail">
-            <div class="icon bg-primary"><img src="" alt=""></div>
-            <div class="description">
-              Quando?
-              <span>04.07.2020</span>
-            </div>
-          </div>
-          <div class="item-detail">
-            <div class="icon bg-primary"><img src="" alt=""></div>
+            <div class="icon bg-primary"><img src="./assets/imgs/Onde.svg" alt=""></div>
             <div class="description">
               Onde
               <span class="uppercase">On-line</span>
             </div>
           </div>
           <div class="item-detail">
-            <div class="icon bg-primary"><img src="" alt=""></div>
+            <div class="icon bg-primary"><img src="./assets/imgs/Horario.svg" alt=""></div>
             <div class="description">
               Horário
               <span class="uppercase">15HS</span>
             </div>
           </div>
           <div class="item-detail">
-            <div class="icon bg-primary"><img src="" alt=""></div>
+            <div class="icon bg-primary"><img src="./assets/imgs/Modulos.svg" alt=""></div>
             <div class="description">
               Módulos
               <span>8</span>
             </div>
           </div>
           <div class="item-detail">
-            <div class="icon bg-primary"><img src="" alt=""></div>
+            <div class="icon bg-primary"><img src="./assets/imgs/Investimento.svg" alt=""></div>
             <div class="description">
               Investimento
               <span>R$710,00</span>
@@ -159,7 +152,9 @@
           </div>
           <div class="flex-row row cards">
             <div class="card">
-              <img src="" alt="">
+              <div class="image-card">
+                <img src="./assets/imgs/autoconhecimento.png" alt="">
+              </div>
               <div class="description">
                 <span class="bolder">Autoconhecimento</span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -167,25 +162,31 @@
               </div>
             </div>
             <div class="card">
-              <img src="" alt="">
+              <div class="image-card">
+                <img src="./assets/imgs/preparacaotecnica.png" alt="">
+              </div>
               <div class="description">
-                <span class="bolder">Autoconhecimento</span>
+                <span class="bolder">Preparação Técnica</span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                   do eiusmod tempor</p>
               </div>
             </div>
             <div class="card">
-              <img src="" alt="">
+              <div class="image-card">
+                <img src="./assets/imgs/preparacaoemocional.png" alt="">
+              </div>
               <div class="description">
-                <span class="bolder">Autoconhecimento</span>
+                <span class="bolder">Preparação Emocional</span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                   do eiusmod tempor</p>
               </div>
             </div>
             <div class="card">
-              <img src="" alt="">
+              <div class="image-card">
+                <img src="./assets/imgs/treino.png" alt="">
+              </div>
               <div class="description">
-                <span class="bolder">Autoconhecimento</span>
+                <span class="bolder">Treino</span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                   do eiusmod tempor</p>
               </div>
@@ -195,6 +196,8 @@
       </div>
     </section>
     <!-- END BEFEFITS -->
+
+
 
     <!-- INIT RECOURSE -->
     <section class="section-simple how-it-works">
@@ -220,33 +223,52 @@
     </section>
     <!-- INIT RECOURSE -->
 
-    <!-- START DEPOIMENTS -->
-    <div class="depoiments">
-      <div class="header-depoiments flex-row">
-        <h1 class="title">depoimentos</h1>
-        <button class="btn btn-primary">Escreva um depoimento</button>
-      </div>
-      <div class="list-depoiments flex-row">
-        <div class="card-depoiment">
-          <div class="avatar-profile">
-            <img src="./assets/imgs/author1.png" alt="">
-          </div>
-          <div class="content-depoiment">
-            <p>Duis aute irure dolor in reprehenderit in voluptate esse cillum dolore eu fugiat
-              pariatur excepteur
-              sint occaecat cupidatat</p>
-            <span class="author-depoiment">Cliente</span>
-          </div>
+    <!-- INIT CALLACTION -->
+    <div class="callaction">
+      <div class="content">
+        <div class="h-callaction">
+          <h1 class="color-white">Ficou interessado?</h1>
+          <p class="color-white uppercase">Desenvolva essa habilidade e de um up na sua carreira</p>
         </div>
-        <div class="card-depoiment">
-          <div class="avatar-profile">
-            <img src="./assets/imgs/author2.png" alt="">
+        <div class="actions">
+          <a>CONTRATAR AGORA</a>
+          <a>SOLICITAR MAIS INFOS</a>
+        </div>
+      </div>
+    </div>
+    <!-- END CALLACTION -->
+
+    <!-- START DEPOIMENTS -->
+    <div class="wrapper-depoiments">
+      <div class="content">
+        <div class="depoiments">
+          <div class="header-depoiments">
+            <h1 class="title color-primary uppercase">Depoimentos</h1>
+            <p class="uppercase bolder prhase">O que os clientes falam</p>
           </div>
-          <div class="content-depoiment">
-            <p>Duis aute irure dolor in reprehenderit in voluptate esse cillum dolore eu fugiat
-              pariatur excepteur
-              sint occaecat cupidatat</p>
-            <span class="author-depoiment">Cliente</span>
+          <div class="list-depoiments flex-row">
+            <div class="card-depoiment">
+              <div class="avatar-profile">
+                <img src="./assets/imgs/author1.png" alt="">
+              </div>
+              <div class="content-depoiment">
+                <p>Duis aute irure dolor in reprehenderit in voluptate esse cillum dolore eu fugiat
+                  pariatur excepteur
+                  sint occaecat cupidatat</p>
+                <span class="author-depoiment">Cliente</span>
+              </div>
+            </div>
+            <div class="card-depoiment">
+              <div class="avatar-profile">
+                <img src="./assets/imgs/author2.png" alt="">
+              </div>
+              <div class="content-depoiment">
+                <p>Duis aute irure dolor in reprehenderit in voluptate esse cillum dolore eu fugiat
+                  pariatur excepteur
+                  sint occaecat cupidatat</p>
+                <span class="author-depoiment">Cliente</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
