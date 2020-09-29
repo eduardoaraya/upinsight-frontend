@@ -176,6 +176,12 @@
     border-color:#F2B111;
 }
 
+.btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .bg-blue{
     background-color: #1A5EAF;
 }
@@ -202,8 +208,16 @@
     color:#F2B111
 }
 
+.bg-primary{
+  background-color:#F2B111
+}
+
 .color-secundary{
-    color:#1EB691
+   color:#1EB691
+}
+
+.bg-secundary{
+  background-color:#1EB691
 }
 
 .btn-more-white{
