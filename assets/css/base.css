@@ -208,8 +208,16 @@
     color:#F2B111
 }
 
+.bg-primary{
+  background-color:#F2B111
+}
+
 .color-secundary{
-    color:#1EB691
+   color:#1EB691
+}
+
+.bg-secundary{
+  background-color:#1EB691
 }
 
 .btn-more-white{
