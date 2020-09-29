@@ -85,3 +85,8 @@
         min-width: 100%;
     }
 }
+
+.page .newsletter{
+  padding: 55px 0px;
+  height: auto;
+}
