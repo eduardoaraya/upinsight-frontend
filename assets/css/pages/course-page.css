@@ -210,5 +210,46 @@
   text-align: center;
 }
 
+.callaction {
+  background:#17181C; 
+  padding:75px 0;
+}
 
+.callaction .h-callaction {
+  text-align: left;
+}
+
+.callaction .h-callaction h1 {
+  font-size:1.2em;
+  font-weight: 400;
+}
+
+.callaction .h-callaction p {
+  font-size:1.6em;
+  margin-top:7px;
+}
+
+.callaction .actions {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top:50px;
+}
+
+.callaction .actions a {
+  padding: 15px 40px;
+  margin: 0 20px;
+  border-radius: 5px;
+  border: 2px solid #FFFFFF;
+  font-weight: 500;
+  transition: .3s;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.callaction .actions a:hover {
+  background: #FFF;
+  color: #17181C;
+}
 
