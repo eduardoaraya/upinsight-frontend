@@ -1,3 +1,6 @@
+.course-page section{
+  overflow: hidden;
+}
 .wrapper-content {
   padding-top:171px;
 }

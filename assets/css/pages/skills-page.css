@@ -1,0 +1,54 @@
+.skills-page section{
+  overflow: hidden;
+}
+.skills-page .wrapper-content {
+  padding-top:171px;
+}
+
+.skill-title {
+  background:url('../../imgs/banner-page-skills.png');
+  height: 260px;
+  padding:45px 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skill-title h1 {
+  font-size:1em;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.skill-title span {
+  font-size:2em;
+}
+
+main.main {
+  min-height: 50vh;
+  background-color: #FFF;
+  padding-bottom: 100px;
+  padding-top: 60px;
+}
+
+main.main .wrapper-grid {
+  display: grid;
+  grid-template-columns: 300px 2fr;
+}
+
+main.main .wrapper-grid .side-navigator li {
+  transition: .3s;
+  padding:5px 0px;
+  cursor: pointer;
+}
+
+main.main .wrapper-grid .side-navigator li:hover {
+  color:#F2B111;
+}
+
+main.main .wrapper-grid h2.title{
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
