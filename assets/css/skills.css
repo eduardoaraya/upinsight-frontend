@@ -81,20 +81,20 @@
     box-shadow: inset 0px 0px 1px 2px #F2B111;
 }
 
-#conpetences .carousel-wrapper {
+.carousel-conpetences .carousel-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-#conpetences .carousel-wrapper .box{
+.carousel-conpetences .carousel-wrapper .box{
     display: flex;
     flex-direction: column;
     max-width: 300px;
     padding:15px 0;
 }
 
-#conpetences .carousel-wrapper .box .figure{
+.carousel-conpetences .carousel-wrapper .box .figure{
     width: 270px;
     height: 160px;
     border-radius: 5px;
@@ -103,7 +103,7 @@
     align-items: center;
 }
 
-#conpetences .carousel-wrapper .box .action{
+.carousel-conpetences .carousel-wrapper .box .action{
     padding:20px 0px;
     display: flex;
     flex-direction: row;
@@ -112,7 +112,7 @@
     font-weight: 500;
 }
 
-#conpetences .carousel-wrapper .box .action img{
+.carousel-conpetences .carousel-wrapper .box .action img{
     border:solid 2px #F2B111;
     padding:10px;
     border-radius: 50%;
@@ -120,7 +120,7 @@
 
 
 @media only screen and (max-width:1440px) {
-    #conpetences .carousel-wrapper {
+    .carousel-conpetences .carousel-wrapper {
         flex-wrap: wrap;
         padding:0 20px;
         justify-content: space-around;
