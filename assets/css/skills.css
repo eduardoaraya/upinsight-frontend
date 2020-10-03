@@ -51,6 +51,7 @@
     padding:15px 0px;
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
 }
 
 #conpetences .category-conpetences ul .item{
@@ -84,7 +85,8 @@
 .carousel-conpetences .carousel-wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .carousel-conpetences .carousel-wrapper .box{
@@ -92,6 +94,7 @@
     flex-direction: column;
     max-width: 300px;
     padding:15px 0;
+    margin: 15px;
 }
 
 .carousel-conpetences .carousel-wrapper .box .figure{
@@ -121,9 +124,7 @@
 
 @media only screen and (max-width:1440px) {
     .carousel-conpetences .carousel-wrapper {
-        flex-wrap: wrap;
         padding:0 20px;
-        justify-content: space-around;
     }
     /* #conpetences .carousel-wrapper .box {
         margin: 0 30px;

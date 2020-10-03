@@ -11,6 +11,9 @@ menuConfig.init();
 const sizeDocument = document.body.scrollHeight;
 const target = (sizeDocument - window.innerHeight) - 450;
 ScrollEvent((menu) => {
+  if (window.innerWidth < 1024) {
+    return;
+  }
   if (window.scrollY >= target) {
     menu.up();
   } else {
