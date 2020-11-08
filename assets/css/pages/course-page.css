@@ -256,3 +256,57 @@
   color: #17181C;
 }
 
+@media only screen and (max-width:1024px) {
+
+  
+}
+
+@media only screen and (max-width:990px) {
+  .page-course .wrapper-content {
+    padding-top:70px;
+  }
+  .page-course .flex-row {
+    flex-wrap: wrap;
+  }
+  .couse-title-page .title {
+    width: auto;
+  }
+
+  .couse-title-page .btn {
+    margin:auto 20px;
+  } 
+
+  .course-details .list-details{
+    flex-direction: column;
+  }
+  .course-details .list-details .item-detail {
+    margin:10px 0px;
+  }
+  .course-details .content .btn{
+    margin:auto 20px;
+  }
+
+  .section-simple.the-course .simple-content, .section-simple.how-it-works .simple-content {
+    width: 100%;
+  }
+
+  .page-course .benefits .cards .card{
+    margin:20px auto;
+    max-width: 300px;
+  }
+
+  .page-course .h-callaction {
+    padding:0 20px;
+    font-size: .93em;
+  }
+
+  .page-course .actions a{
+    width: 100%;    
+    margin:10px 20px;
+    text-align: center;
+  }
+
+  .page-course .list-depoiments .card-depoiment {
+    flex-direction: column;
+  }
+}
